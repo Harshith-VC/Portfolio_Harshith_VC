@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshith V C | Browse</title>
+<meta name="description" content="Browse Harshith V C's data analytics, BI, and AI portfolio through your chosen lens: AI intelligence briefing, projects, dashboards, skills, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="browse-body">
+
+<!-- Netflix-style intro -->
+<div class="intro" id="intro"><span class="intro-logo">HVC</span></div>
+
+<!-- top nav -->
+<nav class="topnav" id="topnav">
+  <div class="topnav-left">
+    <a class="brand" href="index.html">HARSHITH&nbsp;V&nbsp;C</a>
+    <ul class="topnav-links">
+      <li><a href="#home" data-nav="home">Home</a></li>
+      <li><a href="#intel" data-nav>Intelligence</a></li>
+      <li><a href="#row-analytics" data-nav>Projects</a></li>
+      <li><a href="#" data-open="experience">Experience</a></li>
+      <li><a href="#" data-open="certifications">Certifications</a></li>
+      <li><a href="#" data-open="contact" class="hireme">Hire Me</a></li>
+    </ul>
+  </div>
+  <div class="topnav-right">
+    <a class="resume-pill" id="resumePill" href="#" target="_blank" rel="noopener">Resume</a>
+    <div class="avatar-menu" id="avatarMenu">
+      <button class="avatar-btn" id="avatarBtn" aria-label="Switch profile"></button>
+      <div class="avatar-drop" id="avatarDrop"></div>
+    </div>
+  </div>
+</nav>
+
+<!-- hero: AI original briefing -->
+<header class="hero-banner" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-fade"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow"><span class="n-badge">H</span><span id="heroEyebrow">AI ORIGINAL BRIEFING</span></div>
+    <h1 id="heroTitle"></h1>
+    <div class="hero-meta" id="heroMeta"></div>
+    <p id="heroDesc" class="typedwrap"><span class="typed"></span><span class="tcursor"></span></p>
+    <div class="hero-btns">
+      <a class="btn-play" id="heroPlay" href="#" target="_blank" rel="noopener">▶&nbsp; Play Featured</a>
+      <button class="btn-info" id="heroInfo">ⓘ&nbsp; More Info</button>
+    </div>
+  </div>
+</header>
+
+<!-- AI intelligence report -->
+<section class="intel" id="intel">
+  <h2 class="row-title intel-title">Intelligence Report <span class="intel-for" id="intelFor"></span><span class="ai-chip">AI CURATED</span></h2>
+  <div class="intel-grid" id="intelGrid"></div>
+</section>
+
+<!-- rows -->
+<main class="rows" id="rows"></main>
+
+<footer class="site-foot">
+  <div class="foot-social" id="footSocial"></div>
+  <div class="foot-cols">
+    <a href="#" data-open="about">About Me</a>
+    <a href="#" data-open="experience">Experience</a>
+    <a href="#" data-open="skills">Skills</a>
+    <a href="#" data-open="certifications">Certifications</a>
+    <a href="#" data-open="contact">Contact</a>
+    <a href="#" data-open="dashboards">Live Dashboards</a>
+    <a href="https://github.com/Harshith-VC" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/harshith-v-c/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="foot-note">© 2026 Harshith V C · Transforming Data, AI, and Business Insights into Measurable Business Impact.</p>
+  <p class="foot-code">SELECT * FROM opportunities WHERE impact = 'high';</p>
+</footer>
+
+<button class="switch-fab" id="switchFab" title="Switch profile">Switch Profile</button>
+
+<!-- modal + graph tooltip -->
+<div class="nmodal-backdrop" id="modalBackdrop">
+  <div class="nmodal" id="modalBox" role="dialog" aria-modal="true"></div>
+</div>
+<div class="gtip" id="gtip"></div>
+
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/browse.js"></script>
+</body>
+</html>

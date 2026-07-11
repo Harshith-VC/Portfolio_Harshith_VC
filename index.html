@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshith V C | Who's Watching?</title>
+<meta name="description" content="Harshith V C, Data & Analytics Analyst. Pick a profile: the portfolio recomputes itself for Recruiters, Developers, Sales, Founders, Researchers, and Stalkers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="picker-body">
+
+<header class="picker-top">
+  <a class="brand" href="index.html">HARSHITH&nbsp;V&nbsp;C</a>
+  <span class="picker-live mono-sm"><span class="dot-live"></span>6 INTELLIGENCE PROFILES ONLINE</span>
+</header>
+
+<main class="picker">
+  <h1>Who's Watching?</h1>
+  <p class="picker-sub">Six audiences, six versions of this portfolio. Pick yours, or let the spotlight rotate.</p>
+
+  <!-- avatar row: instant entry -->
+  <div class="profiles" id="profiles"></div>
+
+  <!-- auto-rotating profile spotlight -->
+  <section class="spotlight-zone">
+    <div class="spot-head mono-sm">PROFILE SPOTLIGHT · AUTO-ROTATES EVERY 5s · HOVER TO PAUSE</div>
+    <div class="spotlight" id="spotlight">
+      <button class="spot-arrow left" id="spotPrev" aria-label="Previous profile">‹</button>
+      <div class="spot-slides" id="spotSlides"></div>
+      <button class="spot-arrow right" id="spotNext" aria-label="Next profile">›</button>
+    </div>
+    <div class="spot-dots" id="spotDots"></div>
+  </section>
+</main>
+
+<footer class="picker-foot">
+  <span>Data · BI · AI &amp; ML · Built by Harshith V C · ← → to browse, Enter to open</span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/picker.js"></script>
+</body>
+</html>
